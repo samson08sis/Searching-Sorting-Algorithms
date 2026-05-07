@@ -42,3 +42,24 @@ function search(array, target) {
   return -1;
 }
 ```
+
+## Usage Example
+
+```javascript
+const data = [19, 8, 88, 10, 2, 45, 33];
+const targetValue = 10;
+
+const result = search(data, targetValue);
+
+if (result !== -1) {
+  console.log(`Element found at index: ${result}`);
+} else {
+  console.log("Element not found in the array.");
+}
+```
+
+### Output
+
+```plaintext
+Element found at index: 3
+```
